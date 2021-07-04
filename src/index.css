@@ -15,3 +15,12 @@ code {
   padding: 0.5rem;
   margin: 5rem;
 }
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 20px 0;
+}
