@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import axios from 'axios';
-import ReactBpnm from 'react-bpmn';
+import ReactBpmn from 'react-bpmn';
 
 const Diagram = () => {
   const [diagramData, setDiagramData] = useState(null);
@@ -20,7 +20,7 @@ const Diagram = () => {
   return (
     <>
       <h2><pre>Business Process Model and Notation</pre></h2>
-      <ReactBpnm diagramXML={diagramData} />
+      <ReactBpmn diagramXML={diagramData} />
     </>
   );
 };
