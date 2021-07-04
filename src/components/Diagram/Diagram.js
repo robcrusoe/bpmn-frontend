@@ -19,7 +19,7 @@ const Diagram = () => {
 
   return (
     <>
-      <h1>Hello, There!</h1>
+      <h2><pre>Business Process Model and Notation</pre></h2>
       <ReactBpnm diagramXML={diagramData} />
     </>
   );
