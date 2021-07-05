@@ -7,8 +7,8 @@ const FrontendAbout = () => {
   return (
     <>
       <div className="jumbotron">
-        <h1>Hello, There!</h1>
-        <h2>Welcome to the About section for BPMN Frontend</h2>
+        <h1 data-cy='frontend-about-title'>Hello, There!</h1>
+        <h2 data-cy='frontend-about-subtitle'>Welcome to the About section for BPMN Frontend</h2>
 
         <div className={classes.info}>
           <p>⭐️ This application aims to create a <em>User Interface</em> for rendering a Business Process Model and Notation and has the following sections:</p>
@@ -46,12 +46,12 @@ const FrontendAbout = () => {
         </div>
 
         <div className={classes.info}>
-          <Link to="server" className="btn btn-primary btn-lg">
+          <Link to="server" className="btn btn-primary btn-lg" data-cy='redirect-to-server-about'>
             Learn More about the BPMN server here
           </Link>
         </div>
         <div className={classes.info}>
-          <Link to="diagram" className="btn btn-primary btn-lg">
+          <Link to="diagram" className="btn btn-primary btn-lg" data-cy='redirect-to-diagram'>
             See your enriched BPMN diagram in action here
           </Link>
         </div>

@@ -7,8 +7,8 @@ const ServerAbout = () => {
   return (
     <>
       <div className="jumbotron">
-        <h1>Hi, Again!</h1>
-        <h2>Welcome to the About section for BPMN Server (Middleware)</h2>
+        <h1 data-cy='server-about-title'>Hi, Again!</h1>
+        <h2 data-cy='server-about-subtitle'>Welcome to the About section for BPMN Server (Middleware)</h2>
 
         <div className={classes.info}>
           <p>🌟 This application aims to create a <em>Middleware or Backend for Frontend</em> for enriching a Business Process Model and Notation XML</p>
@@ -45,12 +45,12 @@ const ServerAbout = () => {
         </div>
 
         <div className={classes.info}>
-          <Link to="" className="btn btn-primary btn-lg">
+          <Link to="" className="btn btn-primary btn-lg" data-cy='redirect-to-frontend-about'>
             Learn More about the BPMN Frontend here
           </Link>
         </div>
         <div className={classes.info}>
-          <Link to="diagram" className="btn btn-primary btn-lg">
+          <Link to="diagram" className="btn btn-primary btn-lg" data-cy='redirect-to-diagram'>
             See your enriched BPMN diagram in action here
           </Link>
         </div>

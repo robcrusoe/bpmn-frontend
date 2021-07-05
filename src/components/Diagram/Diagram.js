@@ -22,7 +22,7 @@ const Diagram = () => {
 
   return (
     <>
-      <h2><pre>Business Process Model and Notation</pre></h2>
+      <h2><pre data-cy='diagram-title'>Business Process Model and Notation</pre></h2>
       <ReactBpmn diagramXML={diagramData} />
 
       <div className={classes['panel-container']}>
