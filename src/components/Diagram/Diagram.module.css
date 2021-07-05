@@ -1,0 +1,45 @@
+.panel-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel {
+  width: 18rem;
+  height: 13rem;
+  border: 1px dashed #2c2c2c;
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0.5rem;
+}
+
+.colorCode {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.textDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ok {
+  border-color: #2a9d8f;
+  background: #e3eae3;
+}
+
+.pending {
+  border-color: #1e88e5;
+  background: #bbdefb;
+}
+
+.failed {
+  border-color: #e63946;
+  background: #ffe4e1;
+}

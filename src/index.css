@@ -13,7 +13,7 @@ code {
 .react-bpmn-diagram-container {
   height: 23rem;
   padding: 0.5rem;
-  margin: 5rem;
+  margin: 5rem 5rem 0 5rem;
 }
 
 #root {

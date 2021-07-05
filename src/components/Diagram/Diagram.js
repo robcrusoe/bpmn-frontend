@@ -3,6 +3,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ReactBpmn from 'react-bpmn';
 
+import DiagramPanel from './DiagramPanel';
+import classes from './Diagram.module.css';
+
 const Diagram = () => {
   const [diagramData, setDiagramData] = useState(null);
 
@@ -21,6 +24,10 @@ const Diagram = () => {
     <>
       <h2><pre>Business Process Model and Notation</pre></h2>
       <ReactBpmn diagramXML={diagramData} />
+
+      <div className={classes['panel-container']}>
+        <DiagramPanel />
+      </div>
     </>
   );
 };
